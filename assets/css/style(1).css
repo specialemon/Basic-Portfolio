@@ -1,0 +1,156 @@
+/* common start */
+body{
+    margin: 0 0;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/white-waves.png");
+    background-color: #ffffff;
+    background-repeat: repeat;
+}
+
+.heading{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+section{
+    text-align: center;  
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top{
+    position: relative;
+    height: 100px;
+    background: transparent;
+}
+
+h1{
+    background:#4aaaa5;
+    position: absolute;
+    padding-top: 35px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+button{
+    background: white;
+    color: #777777;
+    height: 30px;
+    width: 60px;
+    float: right;
+    margin-top: 35px;
+    border-color: transparent;
+    border-left: 1px solid #777777;
+}
+
+#about{
+    border-left-color: transparent;
+}
+
+
+.midContent{
+    margin-top: 40px;
+    border: 20px solid #ffffff;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.midArticle{
+    position: relative;
+    right: 20px;
+    border: 20px solid #ffffff;
+    border-top: 2px solid #777777;
+    box-sizing: border-box;
+}
+
+.bottom{
+    position: fixed;
+    text-align: center;
+    clear:left;
+    background: transparent;
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+    padding-top: 35px;
+    border-top: 5px solid #4aaaa5;
+    bottom: 0;
+}
+
+/* common end */
+
+/* index content begins */
+
+#topBackground{
+    background:white;
+}
+
+#bottomBackground{
+    background:#666666;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+}
+
+h2{
+    position: relative;
+    padding-top: 20px;
+    top:0;
+    left:0;
+    width: 150px;
+    color: #4aaaa5; 
+    margin-top: 0;  
+}
+
+#myPic{
+    float:left;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* index content ends */
+
+/* portfolio content begins */
+
+#port1{
+
+}
+
+
+/* portfolio content ends */
+
+/* contact content begins */
+
+.descrp{
+    float:left;
+}
+
+.midInput{
+    clear:left;
+    position:relative;
+    left:25px;
+}
+
+.divClear{
+    position:relative;
+    left:0px;
+}
+
+#submit{
+    position:absolute;
+    left:20px;
+    margin-top: 5px;
+    background: #4aaaa5;
+    color:#ffffff;
+    border:0;
+}
+
+/* portfolio content ends */
