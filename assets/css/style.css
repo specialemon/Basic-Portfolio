@@ -2,6 +2,9 @@
 body{
     margin: 0 0;
     font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/white-waves.png");
+    background-color: #ffffff;
+    background-repeat: repeat;
 }
 
 .heading{
@@ -49,13 +52,9 @@ button{
     border-left-color: transparent;
 }
 
-.mid{
-    background: grey;
-    width: 100%;
-    margin: 0 0;
-}
 
 .midContent{
+    margin-top: 40px;
     border: 20px solid #ffffff;
     background: #ffffff;
     box-sizing: border-box;
