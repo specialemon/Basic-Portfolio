@@ -17,7 +17,7 @@ section{
 .top{
     position: relative;
     height: 100px;
-    background: #ffffff;
+    background: transparent;
 }
 
 h1{
@@ -73,7 +73,7 @@ button{
     position: fixed;
     text-align: center;
     clear:left;
-    background: #666666;
+    background: transparent;
     color: #ffffff;
     height: 60px;
     width: 100%;
@@ -85,6 +85,18 @@ button{
 /* common end */
 
 /* index content begins */
+
+#topBackground{
+    background:white;
+}
+
+#bottomBackground{
+    background:#666666;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+}
 
 h2{
     position: relative;
@@ -118,7 +130,7 @@ p{
 
 /* contact content begins */
 
-h3{
+.descrp{
     float:left;
 }
 
