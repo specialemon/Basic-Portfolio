@@ -54,7 +54,7 @@ button{
 }
 
 .midContent{
-
+    overflow:auto;
     background: #ffffff;
     margin-top: 40px;
     border: 20px solid transparent;
@@ -105,7 +105,6 @@ p {
     background: yellow;
     height: 250px;
     width: 250px;
-    margin: 70 70;
-    box-sizing: border-box;
+    margin: 20px 20px;
     float: left;
 }
