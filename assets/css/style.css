@@ -1,6 +1,7 @@
 /* general start */
 
 body{
+    margin: 0px 0px;
     background-image: url("../images/white-waves.png");
     background-color: #ffffff;
     background-repeat: repeat;
@@ -38,15 +39,17 @@ h1{
     text-align: center;
 }
 
-button{
+.nav {
     background: #ffffff;
     color: #777777;
     height: 30px;
-    width: 60px;
+    width: 80px;
     float: right;
+    padding: 5px;
     margin-top: 35px;
     border-color: transparent;
     border-left: 1px solid #777777;
+    box-sizing: border-box;
 }
 
 #leftMostButton{
@@ -58,6 +61,25 @@ button{
     background: #ffffff;
     margin-top: 40px;
     border: 20px solid transparent;
+    box-sizing: border-box;
+}
+
+h2{
+    position: relative;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 150px;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+
+}
+
+
+.midWrapper {
+    width: 900px;
+    border-top: 1px solid #666666;
+    padding-top: 15px;
 }
 
 .bottom{
@@ -77,15 +99,6 @@ button{
 
 /* index content begins */
 
-h2{
-    position: relative;
-    padding-top: 20px;
-    top: 0;
-    left: 0;
-    width: 150px;
-    color: #4aaaa5;
-
-}
 
 #myPic {
     float:left;
@@ -108,3 +121,72 @@ p {
     margin: 20px 20px;
     float: left;
 }
+
+.portDescrpt {
+    background: #4aaaa5;
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+#containerOne {
+    background-image: url("../images/hellothereoldchum.png");
+    background-size: 100% 100%; 
+}
+
+#containerTwo {
+    background-image: url("../images/surprisedpikachu.png");
+    background-size: 100% 100%; 
+}
+
+#containerThree {
+    background-image: url("../images/isthisa.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerFour {
+    background-image: url("../images/polishjerry.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerFive {
+    background-image: url("../images/overrustle.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerSix {
+    background-image: url("../images/ayylmao.jpg");
+    background-size: 100% 100%; 
+}
+
+/* portfolio content ends */
+
+/* contact content begins */
+
+form {
+    text-align: left;
+    color:#777777;
+    clear:both;
+    
+}
+
+.formBlock {
+    margin-top: 5px;
+}
+
+.nameMail {
+    width: 100%;
+}
+
+#submitButton {
+    background: #4aaaa5;
+    color: #ffffff;
+    border: transparent;
+    height: 30px;
+    width: 60px;
+
+}
+
+/* contact content ends */

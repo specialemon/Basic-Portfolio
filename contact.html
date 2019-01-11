@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
@@ -12,35 +13,41 @@
     <div id="topBackground">
         <section class="top">
             <h1 class="heading">Haoyuan Lin</h1>
-            <button type= "button" id="contact">Contact</button>                
-            <button type= "button" id="portfolio" >Portfolio</button>            
-            <button type= "button" id="about">About</button>          
+            <a href="contact.html" class="nav">Contact</a>                
+            <a href="portfolio.html" class="nav">Portfolio</a>            
+            <a href="index.html" class="nav" id="leftMostButton">About</a>       
         </section>    
     </div>
-        <section class="mid center">
-            <section class="midContent">
-                <h2 class="heading">Contact</h2>
-                    <section class="midArticle">
-                        <h3 class="midInput descrp" id="contactName">Name</h3>
-                        <div class="midInput divClear">
-                            <input type="text" size= 120>                             
-                        </div>
-                        <h3 class="midInput descrp" id="contactEmail">Email</h3>
-                        <div class="midInput divClear">
-                                <input type="text" size= 120>                             
-                        </div>
-                        <h3 class="midInput descrp" id="contactMessage">Message</h3>
-                        <div class="midInput divClear">
-                                <input type="text" height= 200px size= 120>                             
-                        </div>
-                        <button id="submit" type="submit" value="submit">Submit</button>
-                    </section>
+        <section class="midContent">
+            <h2 class="heading">Contact</h2>
+            <section class="midWrapper">
+                <form>
+                    <div class="formBlock">
+                        <label for="contactName">Name</label>
+                    </div>
+                    <div class="formBlock">
+                        <input type="text" class="nameMail" id="contactName" placeholder=" Your Name">
+                    </div>
+                    <div class="formBlock">
+                        <label for="contactName">Email</label>
+                    </div>
+                    <div class="formBlock">
+                        <input type="text" class="nameMail" id="contactEmail" placeholder=" example@gmail.com">
+                    </div>
+                    <div class="formBlock">
+                        <label for="contactMessage">Message</label>
+                    </div>
+                    <div class="formBlock">
+                        <textarea rows ="20" cols="126" id="contactMessage"></textarea>
+                    </div>  
+                    <div class="formBlock">
+                        <input id="submitButton" class="formBlock" type="submit" value="Submit">
+                    </div>
+                </form>
             </section>
         </section>
-    <div id="bottomBackground">
-        <section class="bottom">
+        <footer class="bottom">
             <h3>Copyright &reg;</h3>
-        </section>
-    </div>
+        </footer>
 </body>
 </html>
