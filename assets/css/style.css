@@ -1,10 +1,17 @@
 /* general start */
 
+/*html, body {
+    height: 100%;
+}*/
+
 body{
+    /*display: flex;
+    flex-direction: column;*/
     margin: 0px 0px;
     background-image: url("../images/white-waves.png");
     background-color: #ffffff;
     background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .heading{
@@ -60,7 +67,7 @@ h1{
     overflow:auto;
     background: #ffffff;
     margin-top: 40px;
-    border: 20px solid transparent;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -83,17 +90,22 @@ h2{
     padding-top: 15px;
 }
 
+/*.stickyF {
+    flex: 1 0 auto;
+}*/
+
 .bottom{
-    position: absolute;
+    /*flex-shrink: 0;*/
     text-align: center;
     color: #ffffff;
     height: 60px;
     width: 100%;
     background: #666666;
     clear: left;
-    bottom: 0;
     padding-top: 35px;
     border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom: 0px;
 }
 
 /* general end */
